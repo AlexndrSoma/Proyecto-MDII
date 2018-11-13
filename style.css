@@ -1,0 +1,60 @@
+body{
+    margin: 0%;
+    background: rgb(158, 158, 188);
+}
+
+nav.u {
+    height: 100px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(0deg, rgb(158, 158, 188), rgb(80, 132, 80)); 
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+font-family: 'Allerta Stencil', sans-serif;
+font-size: 40px;
+}
+
+hr{
+    height: 10px;
+    color: rgb(57, 96, 57);
+    background-color: rgb(57, 96, 57);
+    margin: 0%;
+    border: none;
+}
+
+nav.d {
+    height: 30px;
+    background-color: rgb(19, 32, 19);
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+font-family: 'Allerta Stencil', sans-serif;
+font-size: 20px;
+color: white;
+}
+nav.l {
+    height: 100vh;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(0deg, rgb(158, 158, 188), rgb(80, 132, 80));  
+    display:inline-block;
+    width: 100px;
+    margin: 0%;
+}
+
+
+
+nav.r {
+    height: 100vh;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(0deg, rgb(158, 158, 188), rgb(80, 132, 80)); 
+    display:inline-block;
+    float: right;
+    width: 100px;
+    margin: 0%;
+}
