@@ -151,3 +151,14 @@ hr.-c{
     position: fixed;
     right: 15px;
 }
+
+div.main {
+	display: flex;
+	align-items: center;
+    justify-content: center;
+}
+
+textarea {
+margin: 20px;
+display: flex;
+}
