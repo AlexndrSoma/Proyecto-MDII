@@ -189,6 +189,10 @@ div.res{
     background-color: white;
 }
 
+div.sb{
+    display: flex;
+}
+
 p.r{
     text-align: center;
 
