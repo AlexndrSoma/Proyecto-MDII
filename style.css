@@ -1,6 +1,7 @@
 body{
     margin: 0%;
     background: rgb(158, 158, 188);
+    font-family: 'Allerta Stencil', sans-serif;
 }
 
 nav.u {
@@ -71,7 +72,7 @@ hr.b{
     margin: 0%;
     border: none;
     position: fixed;
-    left: 27px;
+    left: 18px;
 }
 
 hr.b1{
@@ -82,7 +83,7 @@ hr.b1{
     margin: 0%;
     border: none;
     position: fixed;
-    left: 40px;
+    left: 33px;
 }
 
 hr.c{
@@ -93,9 +94,8 @@ hr.c{
     margin: 0%;
     border: none;
     position: fixed;
-    left: 15px;
+    left: 51px;
 }
-
 
 hr.-a{
     height: 100vh;
@@ -127,7 +127,7 @@ hr.-b{
     margin: 0%;
     border: none;
     position: fixed;
-    right: 27px;
+    right: 18px;
 }
 
 hr.-b1{
@@ -138,7 +138,7 @@ hr.-b1{
     margin: 0%;
     border: none;
     position: fixed;
-    right: 40px;
+    right: 33px;
 }
 
 hr.-c{
@@ -149,16 +149,88 @@ hr.-c{
     margin: 0%;
     border: none;
     position: fixed;
-    right: 15px;
+    right: 51px;
 }
 
 div.main {
 	display: flex;
 	align-items: center;
     justify-content: center;
+    flex-direction: column;
+    margin: 50px;
+    padding: 20px;
 }
+
+div.text {
+	display: flex;
+	align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
 
 textarea {
 margin: 20px;
 display: flex;
 }
+
+
+
+
+div.button{
+    display: flex;
+    justify-content: center;
+}
+
+div.res{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: white;
+}
+
+p.r{
+    text-align: center;
+
+    background-color: white;
+}
+
+button{
+    background:rgb(80, 132, 80); 
+    color:rgb(158, 158, 188);
+    border:none;
+    position:relative;
+    height:60px;
+    font-size:1.6em;
+    padding:0 2em;
+    cursor:pointer;
+    transition:800ms ease all;
+    outline:none;
+    font-family: 'Allerta Stencil', sans-serif;
+  }
+  button:hover{
+    background:rgb(158, 158, 188);
+    color:rgb(80, 132, 80); 
+  }
+  button:before,button:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: rgb(80, 132, 80); 
+    transition:400ms ease all;
+  }
+  button:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+  }
+  button:hover:before,button:hover:after{
+    width:100%;
+    transition:800ms ease all;
+  }
+  
+  
