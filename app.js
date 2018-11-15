@@ -47,13 +47,21 @@ boton1.onclick = function (evt) {
     Entrada(["casado"], true);
 
     Entrada(["casado"], true);
+
+    desglozar = tablero("casado");
+
+    document.getElementById('n11').innerText = desglozar[0];
+    document.getElementById('n10').innerText = desglozar[1];
+    document.getElementById('n01').innerText = desglozar[2];
+    document.getElementById('n00').innerText = desglozar[3];
+
 }
 
 function myFunction() {
-    let n00 = parseInt(document.getElementById("n00").value);
-    let n01 = parseInt(document.getElementById("n01").value);
-    let n10 = parseInt(document.getElementById("n10").value);
-    let n11 = parseInt(document.getElementById("n11").value);
+    let n00 = parseInt(document.getElementById("n00").textContent);
+    let n01 = parseInt(document.getElementById("n01").textContent);
+    let n10 = parseInt(document.getElementById("n10").textContent);
+    let n11 = parseInt(document.getElementById("n11").textContent);
     let tabla = [n11, n10, n01, n00];
     let resultado = document.getElementById('demo');
     let res = phi(tabla).toFixed(3);
