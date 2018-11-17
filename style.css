@@ -1,240 +1,30 @@
-body{
-    margin: 0%;
-    background: rgb(158, 158, 188);
-    font-family: 'Allerta Stencil', sans-serif;
-}
-
-nav.u {
-    height: 100px;
-    background-color: red; /* For browsers that do not support gradients */
-    background-image: linear-gradient(0deg, rgb(158, 158, 188), rgb(80, 132, 80)); 
-text-align: center;
-display: flex;
-flex-direction: column;
-justify-content: center;
-font-family: 'Allerta Stencil', sans-serif;
-font-size: 6vw;
-padding-left: 50px;
-padding-right: 50px;
-}
-
-hr{
-    height: 10px;
-    color: rgb(57, 96, 57);
-    background-color: rgb(57, 96, 57);
-    margin: 0%;
-    border: none;
-}
-
-nav.d {
-    height: 30px;
-    background-color: rgb(19, 32, 19);
-    overflow: hidden;
-    position: fixed;
-    bottom: 0;
-    width: 100vw;
+h1{
     text-align: center;
-display: flex;
-flex-direction: column;
-justify-content: center;
-font-family: 'Allerta Stencil', sans-serif;
-font-size: 20px;
-color: white;
 }
 
-hr.a{
-    height: 100vh;
-    width: 1px;
+a div{
+    color: gray;
+    padding: 0.5em;
+    font-size: 2em;
+    margin: 10px auto;
+    width: 90%;
+}
+
+.e1{
+    text-align: left;
+    background-color: rgba(172, 255, 47, 0.568);
+
+}
+.e1:hover{ 
     color: black;
-    background-color: black;
-    margin: 0%;
-    border: none;
-    position: fixed;
-    left: 3px;
+    background-color: rgb(172, 255, 47);
 }
 
-hr.a1{
-    height: 100vh;
-    width: 2px;
-    color: black;
-    background-color: black;
-    margin: 0%;
-    border: none;
-    position: fixed;
-    left: 9px;
-}
-
-hr.b{
-    height: 100vh;
-    width: 3px;
-    color: black;
-    background-color: black;
-    margin: 0%;
-    border: none;
-    position: fixed;
-    left: 18px;
-}
-
-hr.b1{
-    height: 100vh;
-    width: 4px;
-    color: black;
-    background-color: black;
-    margin: 0%;
-    border: none;
-    position: fixed;
-    left: 33px;
-}
-
-hr.c{
-    height: 100vh;
-    width: 6px;
-    color: black;
-    background-color: black;
-    margin: 0%;
-    border: none;
-    position: fixed;
-    left: 51px;
-}
-
-hr.-a{
-    height: 100vh;
-    width: 1px;
-    color: black;
-    background-color: black;
-    margin: 0%;
-    border: none;
-    position: fixed;
-    right: 3px;
-}
-
-hr.-a1{
-    height: 100vh;
-    width: 2px;
-    color: black;
-    background-color: black;
-    margin: 0%;
-    border: none;
-    position: fixed;
-    right: 9px;
-}
-
-hr.-b{
-    height: 100vh;
-    width: 3px;
-    color: black;
-    background-color: black;
-    margin: 0%;
-    border: none;
-    position: fixed;
-    right: 18px;
-}
-
-hr.-b1{
-    height: 100vh;
-    width: 4px;
-    color: black;
-    background-color: black;
-    margin: 0%;
-    border: none;
-    position: fixed;
-    right: 33px;
-}
-
-hr.-c{
-    height: 100vh;
-    width: 6px;
-    color: black;
-    background-color: black;
-    margin: 0%;
-    border: none;
-    position: fixed;
-    right: 51px;
-}
-
-div.main {
-	display: flex;
-	align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin: 50px;
-    padding: 20px;
-}
-
-div.text {
-	display: flex;
-	align-items: center;
-    justify-content: center;
-    flex-direction: row;
-}
-
-
-textarea {
-margin: 20px;
-display: flex;
-}
-
-
-
-
-div.button{
-    display: flex;
-    justify-content: center;
-}
-
-div.res{
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    background-color: white;
-}
-
-div.sb{
-    display: flex;
-}
-
-p.r{
+.e2{
     text-align: center;
-
-    background-color: white;
+    background-color: rgba(100, 237, 214, 0.322);
 }
-
-button{
-    background:rgb(80, 132, 80); 
-    color:rgb(158, 158, 188);
-    border:none;
-    position:relative;
-    height:60px;
-    font-size:1.6em;
-    padding:0 2em;
-    cursor:pointer;
-    transition:800ms ease all;
-    outline:none;
-    font-family: 'Allerta Stencil', sans-serif;
-  }
-  button:hover{
-    background:rgb(158, 158, 188);
-    color:rgb(80, 132, 80); 
-  }
-  button:before,button:after{
-    content:'';
-    position:absolute;
-    top:0;
-    right:0;
-    height:2px;
-    width:0;
-    background: rgb(80, 132, 80); 
-    transition:400ms ease all;
-  }
-  button:after{
-    right:inherit;
-    top:inherit;
-    left:0;
-    bottom:0;
-  }
-  button:hover:before,button:hover:after{
-    width:100%;
-    transition:800ms ease all;
-  }
-  
-  
+.e2:hover{
+    color: black;
+    background-color:rgb(103, 247, 223) 
+}
