@@ -199,7 +199,7 @@ p.r{
     background-color: white;
 }
 
-button{
+button, #boton-llenado{
     background:rgb(80, 132, 80); 
     color:rgb(158, 158, 188);
     border:none;
@@ -212,11 +212,12 @@ button{
     outline:none;
     font-family: 'Allerta Stencil', sans-serif;
   }
-  button:hover{
+  button:hover, #boton-llenado:hover {
     background:rgb(158, 158, 188);
     color:rgb(80, 132, 80); 
   }
-  button:before,button:after{
+
+  button:before,button:after, #boton-llenado:before, #boton-llenado:after{
     content:'';
     position:absolute;
     top:0;
@@ -226,15 +227,24 @@ button{
     background: rgb(80, 132, 80); 
     transition:400ms ease all;
   }
-  button:after{
+  button:after, #boton-llenado:after{
     right:inherit;
     top:inherit;
     left:0;
     bottom:0;
   }
-  button:hover:before,button:hover:after{
+  button:hover:before,button:hover:after, #boton-llenado:hover:before,#boton-llenado:hover:after{
     width:100%;
     transition:800ms ease all;
+  }
+
+  #llenado,#llenado tr,#llenado td{
+    border: solid 1px;
+    border-collapse: collapse;
+  }
+
+  table tr td{
+      text-align: center;
   }
   
   
